@@ -703,7 +703,7 @@ def pip_install_tensorflow(options):
 
 def pip_install_pytorch(options):
     name = "torch"
-    version = "0.4.0"
+    version = "0.4.1"
     if sys_info["OS"] == TOOLSFORAI_OS_MACOS:
         pip_install_package(name, options, version)
     elif sys_info["OS"] == TOOLSFORAI_OS_WIN or sys_info["OS"] == TOOLSFORAI_OS_LINUX:
